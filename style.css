@@ -83,18 +83,17 @@ footer {
 
 /*resume section*/
 .resume {
-  border: 1px dashed black;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .resume-row {
   padding: 12px;
-  border: 1px dashed blue;
 }
 
 .resume-column {
   float: left;
   width: 50%;
-  border: 1px dashed green;
 }
 
 .resume-row:after {
@@ -109,6 +108,7 @@ footer {
   text-align: center;
   text-decoration: none;
   padding: 12px;
+  border: none;
   border-radius: 8px;
   background-color: #69ccff;
   color: #f2f2f2;
