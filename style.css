@@ -127,11 +127,19 @@ footer {
   .column {
     width: 40%;
   }
+  
+  .multibox1 img {
+    max-width: 350px;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .column {
     width: 80%;
+  }
+
+  .multibox1 img {
+    max-width: 350px;
   }
 }
 /*end gallery menu*/
