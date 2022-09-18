@@ -50,6 +50,15 @@ h2 {
 .topnav a.active {
   background-color: black;
 }
+
+@media screen and (max-width: 770px) {
+  .topnav a {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+  }
+}
 /*end topnav*/
 
 /*footer*/
@@ -64,3 +73,67 @@ footer {
 
 }
 /*end footer*/
+
+/*gallery menu*/
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+  margin: 24px auto;
+  /*border: 1px dashed black;*/
+  padding: 24px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  display: inline-block;
+  width: 30%;
+  /*border: 1px dotted black;*/
+}
+
+.row,
+.row > .column {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.multibox1 {
+  margin: 8px;
+  margin-top: 0px;
+  /*border: 1px solid black;*/
+}
+
+.multibox1 img {
+  width: 100%;
+  min-width: 100px;
+}
+
+.multibox1 h3 {
+  font-family: georgia, serif;
+  text-align: center;
+}
+
+.multibox1 p {
+  font-family: georgia, serif;
+  text-align: justify;
+}
+
+@media screen and (max-width: 770px) {
+  .column {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .column {
+    width: 80%;
+  }
+}
+/*end gallery menu*/
