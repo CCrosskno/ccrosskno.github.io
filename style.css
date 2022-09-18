@@ -1,0 +1,66 @@
+/*general elements*/
+h1 {
+  font-family: verdana, sans-serif;
+  font-size: 32px;
+  color:black;
+  text-align: center;
+}
+
+h2 {
+  font-family: verdana, sans-serif;
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+/*end general elements*/
+
+/*main section*/
+.main {
+  max-width: 90%;
+  margin: auto;
+  min-height: 80vh;
+}
+/*end main section*/
+
+/*topnav*/
+.topnav {
+  overflow: hidden;
+  background-color: #69ccff;
+}
+
+.topnav a {
+  display: inline-block;
+  float: left;
+  font-family: verdana, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: justify;
+  color: #f2f2f2;
+  padding: 12px;
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+}
+
+.topnav a:hover {
+  background-color: blue;
+  color: white;
+  transition-duration: 0.4;
+}
+
+.topnav a.active {
+  background-color: black;
+}
+/*end topnav*/
+
+/*footer*/
+footer {
+  font-family: verdana, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+  padding: 12px;
+  position: relative;
+  background-color: black;
+
+}
+/*end footer*/
