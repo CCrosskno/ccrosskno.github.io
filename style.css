@@ -254,7 +254,7 @@ footer {
 
 @media screen and (max-width: 770px) {
   .column {
-    width: 40%;
+    width: 45%;
   }
 
   .multibox1 img {
@@ -264,7 +264,7 @@ footer {
 
 @media screen and (max-width: 400px) {
   .column {
-    width: 80%;
+    width: 90%;
   }
 
   .multibox1 img {
