@@ -133,7 +133,26 @@ footer {
 }
 /*end resume section*/
 
+/*academic section*/
+.academic-box button {
+  font-family: verdana, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #69ccff;
+  color: #f2f2f2;
+  width: 150px;
+}
 
+.academic-box button:hover {
+  background-color: blue;
+  color: white;
+  transition-duration: 0.4s;
+}
+/*end academic section*/
 
 /*gallery menu*/
 * {
