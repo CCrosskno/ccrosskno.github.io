@@ -27,7 +27,14 @@
           <div class="academic-box">
             <h3>Subjects</h3>
             <p>Use the dropdown to select a subject.</p>
-            <button class="dropdown">- select -</button>
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbutton">- select -</button>
+              <div id="academic-subjects" class="dropdown-content">
+                <a href="#">Subject 1</a>
+                <a href="#">Subject 2</a>
+                <a href="#">Subject 3</a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="column">
@@ -50,5 +57,6 @@
     <footer>
       <p>Copyright 2022 Colin Crosskno</p>
     </footer>
+  <script src="../dropdowns.js"></script>
   </body>
 </html>
