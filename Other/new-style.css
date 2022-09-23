@@ -1,0 +1,202 @@
+html {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: verdana, sans-serif;
+}
+
+/*general*/
+h2 {
+  font-size: 28;
+}
+
+h3 {
+  font-size: 24;
+  color: #69ccff;
+}
+
+h4 {
+  font-size: 20;
+}
+
+button {
+  border: 2px solid white;
+  background-color: black;
+  color: #f2f2f2;
+}
+
+button:hover {
+  background-color: rgba(255, 0, 0, 0.69);
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*end general*/
+
+/*topnav*/
+.topnav {
+  background-color: black;
+  border: 1px solid white;
+  overflow: hidden;
+  width: 88%;
+  margin: auto;
+}
+
+.topnav a {
+  display: block;
+  float: left;
+  font-family: verdana, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 12px;
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+}
+
+.topnav a:hover {
+  background-color: pink;
+  color: black;
+  transition-duration: 0.4;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+@media screen and (max-width: 770px) {
+  .topnav a {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+  }
+}
+
+.sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+
+.sticky + .ADSFJGDSKFJGHSDKLFG {
+   padding-top: 60px;
+}
+/*end topnav*/
+
+
+
+.header-to-footer {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 12px;
+}
+
+/*left nav*/
+.side-left {
+  flex: 20%;
+  border: 3px dotted white;
+  margin-right: 8px;
+  padding: 8px;
+}
+
+.left-nav-links {
+  border: 1px dotted white;
+  margin: 8px;
+}
+
+.list-of-links {
+  border: 1px dashed white;
+  margin: 8px;
+}
+/*end left nav*/
+
+/*   M A I N   */
+.main {
+  flex: 80%;
+  border: 3px dashed white;
+  min-height: 80vh;
+  margin-left: 8px;
+  padding: 8px;
+}
+/*   END   M A I N   */
+
+/*gallery*/
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  border: 1px solid white;
+  margin: 8px;
+}
+
+.gallery-grid {
+  border: 1px dashed white;
+  margin: 8px;
+}
+
+.gallery-grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.gallery-grid,
+.galllery-grid > .gallery-box {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.gallery-box {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 1px dotted white;
+  margin: 8px;
+}
+
+/*end gallery*/
+
+
+
+
+
+
+
+
+
+
+/*content*/
+.content {
+  border: 1px solid white;
+  margin: 8px;
+}
+
+.content-section {
+  border: 1px dashed white;
+  margin: 8px;
+}
+/*end content*/
+
+
+
+
+
+
+
+/*blog*/
+.blog {
+  border: 1px solid white;
+  margin: 8px;
+}
+
+.blog-post {
+  border: 1px dashed white;
+  margin: 8px;
+  text-align: left;
+}
+/*end blog*/
