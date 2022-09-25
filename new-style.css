@@ -5,14 +5,25 @@ html {
   font-family: verdana, sans-serif;
 }
 
+/*color palette
+blue: #69cccff
+red: red
+brown: #dead69
+end color palette*/
+
 /*general*/
 h2 {
+  background-color: white;
+  color: black;
   font-size: 28;
+  padding: 8px;
 }
 
 h3 {
+  background-color: white;
+  color: black;
   font-size: 24;
-  color: #69ccff;
+  padding: 8px;
 }
 
 h4 {
@@ -27,8 +38,8 @@ button {
 }
 
 button:hover {
-  background-color: rgba(255, 0, 0, 0.69);
-  color: white;
+  background-color: white;
+  color: red;
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -57,8 +68,8 @@ button:hover {
 }
 
 .topnav a:hover {
-  background-color: pink;
-  color: black;
+  background-color: white;
+  color: red;
   transition-duration: 0.4;
 }
 
@@ -205,6 +216,7 @@ button:hover {
 }
 
 .gallery-box p {
+  display: inline-block;
   width: 90%;
   padding: 8px;
   margin: 8px;
@@ -213,12 +225,26 @@ button:hover {
   font-family: georgia, serif;
 }
 
-.gallery-box button {
+.gallery-box a {
+  display: inline-block;
+  font-family: verdana, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
   min-width: 150px;
   width: 90%;
   padding: 8px;
   margin: 8px;
 }
+
+.gallery-box a:hover {
+  background-color: white;
+  color: red;
+  transition-duration: 0.4s;
+}
+
 /*end gallery*/
 
 
@@ -280,5 +306,6 @@ button:hover {
 
 .footer h3 {
   color: black;
+  background-color: #f2f2f2;
 }
 /*end footer*/
